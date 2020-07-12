@@ -3,3 +3,4 @@
 .idea
 target/
 /design-patterns.iml
+/src/main/resources/design-patterns-java-creational/
