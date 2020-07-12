@@ -1,4 +1,4 @@
-package singleton;
+package creational.singleton;
 
 public class DBSingleton {
 
@@ -18,6 +18,7 @@ public class DBSingleton {
         }
     }
 
+    // Should be Static
     public static DBSingleton getInstance(){
         // Lazy Load with null Check
         // Improves performance because every request will check if it is not null and only then creates
